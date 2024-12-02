@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: stratum-proxy
+    env: python
+    runtime: python3
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python3 stratum_proxy.py"
+    plan: free
+    region: oregon
+    disk:
+      sizeGB: 1
+      mountPath: /var/data
