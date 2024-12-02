@@ -4,7 +4,7 @@ import socket
 
 # Proxy config
 PROXY_HOST = "0.0.0.0"       # Proxy lắng nghe trên tất cả các địa chỉ IP
-PROXY_PORT = 3333            # Cổng proxy (cấu hình miner kết nối tới đây)
+PROXY_PORT = 10000            # Cổng proxy (cấu hình miner kết nối tới đây)
 
 # Pool config
 POOL_HOST = "stratum-na.rplant.xyz"  # Địa chỉ pool
